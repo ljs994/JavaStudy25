@@ -1,36 +1,30 @@
-package ch01;
-
-public class PromotionExam {
-
-	public static void main(String[] args) {
-		// ÀÚµ¿ Å¸ÀÔ º¯È¯ ¿¬½À
-				// : ÀÛÀº Å¸ÀÔ °ªÀ» ¼Õ½Ç ¾øÀÌ Å« Å¸ÀÔ °ªÀ¸·Î º¯È¯ ÇÑ´Ù.
-				// byte(1byte : 8bit)
-				// short(2byte : 16bit) & char(À¯´ÏÄÚµå¿ë : ¹®ÀÚÇ¥Çö)
-				// int(4byte : 32bit)
-				// long(8byte : 64bit)  // Á¢¹Ì»ç L
-				// float(4byte : 32bit) // ½Ç¼öÇü Á¢¹Ì»çF
-				// double(8byte : 64bit)
-				
-				byte byteValue = 75 ; 
-				int intValue = byteValue ; 
-				
-				System.out.println("ÀÚµ¿Å¸ÀÔ µÈ int : " + intValue );
-				
-				char charValue = '´Ù' ;
-				intValue = charValue ;
-				System.out.println("ÀÚµ¿Å¸ÀÔ µÈ int : " + intValue);
-				
-				
-				intValue = 369 ;
-				long longValue = intValue ;
-				System.out.println("ÀÚµ¿Å¸ÀÔ µÈ long : " + longValue);
-				
-				intValue = 123 ;
-				double doubleValue = intValue ;
-				System.out.println("ÀÚµ¿Å¸ÀÔ µÈ double : " + doubleValue );
-				
-
-	}
-
-}
+/*
+ * package ch01;
+ * 
+ * public class PromotionExam {
+ * 
+ * public static void main(String[] args) { // ï¿½Úµï¿½ Å¸ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½ï¿½ï¿½ï¿½ // : ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ ï¿½Õ½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å« Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ñ´ï¿½. // byte(1byte : 8bit) // short(2byte :
+ * 16bit) & char(ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ : ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½ï¿½) // int(4byte : 32bit) // long(8byte :
+ * 64bit) // ï¿½ï¿½ï¿½Ì»ï¿½ L // float(4byte : 32bit) // ï¿½Ç¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ì»ï¿½F // double(8byte :
+ * 64bit)
+ * 
+ * byte byteValue = 75 ; int intValue = byteValue ;
+ * 
+ * System.out.println("ï¿½Úµï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ int : " + intValue );
+ * 
+ * char charValue = 'ï¿½ï¿½' ; intValue = charValue ;
+ * System.out.println("ï¿½Úµï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ int : " + intValue);
+ * 
+ * 
+ * intValue = 369 ; long longValue = intValue ;
+ * System.out.println("ï¿½Úµï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ long : " + longValue);
+ * 
+ * intValue = 123 ; double doubleValue = intValue ;
+ * System.out.println("ï¿½Úµï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ double : " + doubleValue );
+ * 
+ * 
+ * }
+ * 
+ * }
+ */

@@ -1,55 +1,44 @@
-package ch01;
-
-public class VarExam {
-
-	public static void main(String[] args) {
-		
-		int x = 10 ;
-		char y = 80 ;
-		char z = 'A' ;
-		
-		System.out.println("int x = " + x);
-		System.out.println("char y = " + y);
-		System.out.println("char z = " + z);
-
-		int x1 ;
-		x1 = 85 ;
-		
-		System.out.println(x1);
-		
-		char y1 ;
-		y1 = 65 ;
-		
-		System.out.println(y1);
-		
-		int kor, mat, eng, total, avg ;
-		kor = 80 ;
-		mat = 70 ;
-		eng = 60 ;
-		total = kor + mat + eng ;
-		avg = total / 3 ;
-		
-		System.out.println("ÃÑÁ¡ : " + total);
-		System.out.println("Æò±Õ : " + avg);
-		
-		char firstname = '¾ß' ;
-		char firstName = 'È£' ;
-		
-		System.out.println("´ä : " + firstname );
-		System.out.println("´ä : " + firstName );
-		
-		int litera11 = 75 ;
-		int litera12 = 075 ;
-		int litera13 = 0b0011 ;
-		int litera14 = 0xA ;
-		
-		System.out.println("10Áø¼ö 75 : " + litera11);
-		System.out.println("8Áø¼ö 075 : " + litera12);
-		System.out.println("2Áø¼ö 0011 : " + litera13);
-		System.out.println("16Áø¼ö A : " +litera14);
-		
-		
-		
-	} // ¸Þ¼­µå Á¾·á
-
-}
+/*
+ * package ch01;
+ * 
+ * public class VarExam {
+ * 
+ * public static void main(String[] args) {
+ * 
+ * int x = 10 ; char y = 80 ; char z = 'A' ;
+ * 
+ * System.out.println("int x = " + x); System.out.println("char y = " + y);
+ * System.out.println("char z = " + z);
+ * 
+ * int x1 ; x1 = 85 ;
+ * 
+ * System.out.println(x1);
+ * 
+ * char y1 ; y1 = 65 ;
+ * 
+ * System.out.println(y1);
+ * 
+ * int kor, mat, eng, total, avg ; kor = 80 ; mat = 70 ; eng = 60 ; total = kor
+ * + mat + eng ; avg = total / 3 ;
+ * 
+ * System.out.println("ï¿½ï¿½ï¿½ï¿½ : " + total); System.out.println("ï¿½ï¿½ï¿½ : " + avg);
+ * 
+ * char firstname = 'ï¿½ï¿½' ; char firstName = 'È£' ;
+ * 
+ * System.out.println("ï¿½ï¿½ : " + firstname ); System.out.println("ï¿½ï¿½ : " +
+ * firstName );
+ * 
+ * int litera11 = 75 ; int litera12 = 075 ; int litera13 = 0b0011 ; int litera14
+ * = 0xA ;
+ * 
+ * System.out.println("10ï¿½ï¿½ï¿½ï¿½ 75 : " + litera11);
+ * System.out.println("8ï¿½ï¿½ï¿½ï¿½ 075 : " + litera12);
+ * System.out.println("2ï¿½ï¿½ï¿½ï¿½ 0011 : " + litera13);
+ * System.out.println("16ï¿½ï¿½ï¿½ï¿½ A : " +litera14);
+ * 
+ * 
+ * 
+ * } // ï¿½Þ¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+ * 
+ * }
+ */
